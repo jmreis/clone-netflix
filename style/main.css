@@ -12,6 +12,7 @@
 body{
     background: var(--preto);
     font-family: 'Times New Roman', Times, serif;
+    color: white;
 }
 
 header .container{
@@ -24,7 +25,7 @@ header .container{
 header .logo{
     margin-left: 5px;
     color: var(--vermelho);
-    font-family: 'Arial Black', Times;
+    font-family: Arial, Helvetica, sans-serif, Times;
     font-size: 40px;
 }
 
@@ -36,4 +37,13 @@ header nav a{
 
 header nav a:hover{
     color: #FFF;
+}
+
+/*filme principal*/
+.filme-principal{
+    font-size: 16px;
+    background: linear-gradient(rgba(0,0,0,-50), rgba(0,0,0,-50)100% ) url();
+
+    height: 400px;
+    background-size: cover;
 }
